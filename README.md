@@ -10,13 +10,17 @@
 ## Step 2 : Train and test 3 different models to compare performance and select the best one.
 
 - Long Short Term Memory : Terrible Results
+
 ![image](https://github.com/alxndrfly/BTC_MLOps/assets/135460292/58242c3b-223c-498f-aabf-c60ea51f8dc6)
 
 - XGBoost : Terrible Results
+
 ![image](https://github.com/alxndrfly/BTC_MLOps/assets/135460292/d79ebe5b-eccc-4f3e-8a43-2255c4422f1e)
 
 - ARIMA : Best Results
+
 ![image](https://github.com/alxndrfly/BTC_MLOps/assets/135460292/4225b50d-dc2b-46af-9dd5-8beb6beb403a)
+
 
 I selected ARIMA as the model to deploy.
 
