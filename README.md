@@ -42,5 +42,11 @@ predict_script.py :
 ## Step 4 : Deploy on AWS
 
 This repo was deployed on a notebook instance of amazon sagemaker.
-I used cron to hourly run the python scripts.
-Cron runs a 
+
+I added a run_scripts.sh file that runs both python scripts in the right sequence.
+I used cron to hourly run run_scripts.sh.
+
+![image](https://github.com/alxndrfly/BTC_MLOps/assets/135460292/bea1b845-d246-4ac9-89c1-12fc63323ce1)
+
+
+![image](https://github.com/alxndrfly/BTC_MLOps/assets/135460292/42c2f5a1-3a61-49f1-bd90-aae5f4b49530)
