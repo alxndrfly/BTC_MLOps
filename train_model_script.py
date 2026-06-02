@@ -28,7 +28,6 @@ def fetch_historical_data(api_key, limit=2000):
     data = response.json()['Data']['Data']
     return pd.DataFrame(data)
 
-api_key = '17011d57142c4a08089d7a61548de4f7cd9bb98bb186872eea1889a03c47ca73'
 df = fetch_historical_data(api_key)
 
 df = df.drop(columns=['conversionType', 'conversionSymbol'])
